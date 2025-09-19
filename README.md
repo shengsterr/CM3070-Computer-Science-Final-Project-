@@ -1,10 +1,5 @@
-# CM3070-Computer-Science-Final-Project-
-Orchestration of AI Models to create a Children's Story Book with Illustrations
+AI Children’s Story Generator 📚✨
 
-# The code can be ran using the following commands in powershell. 
-cd "path to folder"
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-python -m streamlit run app/Home.py
+Turn a one-sentence idea into a printable, illustrated, narrated children’s picture book—in minutes.
 
-# Please edit .env file with relevant information for application to run smoothly
+Built with Streamlit and an orchestration of ASR (speech-to-text), LLM story generation, scene planning, text-to-image, TTS narration, and PDF export. Cloud models are used for quality and speed with local fallbacks for resilience.
