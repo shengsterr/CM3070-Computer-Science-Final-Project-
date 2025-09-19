@@ -40,4 +40,12 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
+### 2) Run the application
+```
+cd "path\to\folder"
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
 
+python -m streamlit run app/Home.py
+```
