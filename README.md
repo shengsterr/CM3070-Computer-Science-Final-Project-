@@ -1,5 +1,4 @@
-
-"""# AI Children’s Story Generator 📚✨
+# AI Children’s Story Generator 📚✨
 
 Turn a one-sentence idea into a printable, illustrated, narrated **children’s picture book**—in minutes.
 
@@ -8,21 +7,8 @@ Built with **Streamlit** and an orchestration of ASR (speech-to-text), LLM story
 ---
 
 ## Table of contents
-- [Demo](#demo)
 - [Features](#features)
 - [Quick start](#quick-start)
-- [Configuration & environment](#configuration--environment)
-- [How it works](#how-it-works)
-- [Repository structure](#repository-structure)
-- [Troubleshooting](#troubleshooting)
-
-
----
-
-## Demo
-
-> _Add a short screen recording or GIF here (Create → Read → Library)._  
-> _Optional: link to a sample PDF in `data/pdfs/`._
 
 ---
 
@@ -49,8 +35,9 @@ cd <your-repo>
 
 # (Recommended) create a venv
 python -m venv .venv
-# Windows: .venv\\Scripts\\activate
+# Windows: .venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
