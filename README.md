@@ -1,5 +1,5 @@
-# Write README.md and .env.example for the user to download
-readme = """# AI Children’s Story Generator 📚✨
+
+"""# AI Children’s Story Generator 📚✨
 
 Turn a one-sentence idea into a printable, illustrated, narrated **children’s picture book**—in minutes.
 
@@ -14,11 +14,8 @@ Built with **Streamlit** and an orchestration of ASR (speech-to-text), LLM story
 - [Configuration & environment](#configuration--environment)
 - [How it works](#how-it-works)
 - [Repository structure](#repository-structure)
-- [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ---
 
